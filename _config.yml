@@ -118,3 +118,15 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+  # Put this below your existing settings
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: home
+      author_profile: true
+      sidebar:
+        nav: "main"
+
